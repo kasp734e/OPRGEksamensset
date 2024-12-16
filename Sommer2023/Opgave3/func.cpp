@@ -27,3 +27,11 @@
       }
 
   }
+
+  double gennemsnitligModstan(std::vector<Wire> v) {
+    double gennemsnitRetur = 0;
+      for (Wire wire : v) {
+          gennemsnitRetur += wire.getModstand();
+      }
+    return gennemsnitRetur;
+  }

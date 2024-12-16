@@ -1,5 +1,6 @@
 #pragma once
 
+#include <vector>
 class Wire {
   private:
   double laength;
@@ -10,3 +11,5 @@ class Wire {
   Wire(double specifikModstand, double laength, double tvaersnitAreal);
   double getModstand();
 };
+
+double gennemsnitligModstan(std::vector<Wire> v);
