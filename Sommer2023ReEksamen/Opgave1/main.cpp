@@ -24,8 +24,5 @@ int main() {
 
     std::cout << "Mid value: " << *middle_p << std::endl;
     std::cout << "Min: " << *min_p << " Max: "<< *max_p << std::endl;
-
-
-
     return 0;
 }
